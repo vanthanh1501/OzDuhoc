@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Nguyen Trong Nghia
+   ========================================================================== */
+.summary {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.summary .name {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.summary img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.summary .about {
+	margin-bottom: 15px;
+}
+.summary .about .field {
+	max-width: 100px;
+	width: 100%;
+	display: inline-block;
+}
+.summary .about .price {
+	color: #df0000;
+}
+.tab-content {
+	margin-bottom: 40px;
+}
+.tab-content img {
+	max-width: 100%;
+	height: auto;
+}
+/* ==========================================================================
+   Responsive CSS
+   ========================================================================== */
+/* #Tablet (Landscape) 1024px */
+
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+/* #Tablet (Portrait) 768px */
+
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* #Mobile (Landscape) 480px */
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/*  #Mobile (Portrait) 320px
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+}

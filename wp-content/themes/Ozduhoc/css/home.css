@@ -1,0 +1,246 @@
+/* ==========================================================================
+   Nguyen Trong Nghia
+   ========================================================================== */
+.page-home ul, .page-home li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;	
+}
+/* Slider */
+.wrap-slider {
+	padding: 40px 0px;
+	background: url("../img/bg-contact.jpg") no-repeat;
+	background-size: cover;
+}
+.wrap-slider img {
+	width: 100%;
+}
+.wrap-slider .slider {
+	position: relative;
+	margin-bottom: 10px;
+}
+.wrap-slider img.shadow-slider {
+	width: 100%;
+	position: absolute;
+	bottom: -35px;
+	left: 0px;
+}
+.wrap-slider form .wrap-field {
+	background: #fafafa;
+	padding: 0px 20px;
+	font-size: 13px;
+	color: #6a6a6a;
+}
+.wrap-slider form .wrap-field .title {
+	color: #0076a1;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #10b5c0;
+}
+.wrap-slider form .wrap-field .tour {
+	margin-bottom: 15px;
+}
+.wrap-slider form .wrap-field .tour div {
+	margin-bottom: 15px;
+}
+.wrap-slider form .wrap-field .tour span {
+	margin-left: 10px;
+}
+.wrap-slider form .wrap-field .location {
+	padding-bottom: 24px;
+}
+.wrap-slider form .wrap-field .location p {
+	margin-bottom: 15px;
+}
+.wrap-slider form .wrap-field .location select {
+	width: 100%;
+	height: 38px;
+	padding: 0px 10px;
+}
+.wrap-slider form button {
+	width: 100%;
+	border: 1px solid #fafafa;
+	margin-bottom: 30px;
+	padding: 10px 0px;
+	background: #10b5c0;
+	color: #feffff;
+}
+.wrap-slider form button:hover {
+	background: #0A6B71;
+}
+.huge_it_slideshow_dots_thumbnails_1 {
+	bottom: 0px !important;
+	top: initial !important;
+}
+/* Tour hot */
+.wrap-tour-hot {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.wrap-tour-hot .list-tour {
+	text-align: left;
+}
+.wrap-tour-hot .list-tour .item {
+	margin-bottom: 20px;
+	min-height: 265px;
+}
+.wrap-tour-hot .list-tour img {
+	margin-bottom: 15px;
+	max-width: 100%;
+	height: auto;
+}
+.wrap-tour-hot .list-tour title {
+	color: #777777;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.wrap-tour-hot .list-tour .link {
+	margin-bottom: 15px;
+}
+.wrap-tour-hot .list-tour .link a {
+	font-size: 13px;
+	color: #10b5c0;
+}
+.wrap-tour-hot .list-tour hr {
+	margin: 0px auto;
+	height: 1px;
+	background: #b9ced5;
+	width: 150px;
+	text-align: center;
+}
+/* All tour */
+.wrap-all-tour {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+.wrap-all-tour .wrap-type-tour {
+	background: #fbfbfb;
+	padding: 20px;
+}
+.wrap-all-tour .wrap-hot-tour .name {
+	margin-bottom: 10px;
+}
+.wrap-all-tour .wrap-hot-tour img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.wrap-all-tour .wrap-hot-tour .about {
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.wrap-all-tour .wrap-hot-tour .about .field,
+.link .field {
+	max-width: 100px;
+	width: 100%;
+	display: inline-block;
+}
+.wrap-all-tour .wrap-hot-tour .about .price {
+	color: #df0000;
+}
+.wrap-all-tour .wrap-list-tour {
+	padding-bottom: 15px;
+}
+.wrap-all-tour .wrap-list-tour li:nth-child(1) {
+	margin-bottom: 0px;
+}
+.wrap-all-tour .wrap-list-tour li {
+	margin-bottom: 15px;
+}
+.wrap-all-tour .view-more {
+	text-align: right;
+}
+.wrap-all-tour .view-more a {
+	color: #10b5c0;
+	font-style: italic;
+}
+.wrap-all-tour .view-more a:hover {
+	text-decoration: underline;
+}
+/* Sails tour */
+.wrap-sails-tour img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.wrap-sails-tour {
+	margin-bottom: 25px;
+}
+/* Customer */
+.wrap-customer {
+	background: #fafafa;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.wrap-customer .customer {
+	display: inline-block;
+	width: 100%;	
+}
+.wrap-customer .customer .about .name {
+	font-size: 17px;
+}
+.wrap-customer .customer .about .comment {
+	font-size: 13px;
+	color: #959595;
+}
+.wrap-customer .avatar {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 5px;	
+}
+.wrap-customer .avatar img {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+}
+.link p{
+	margin-bottom: 0px;
+}
+.wrap-tour-hot .list-tour .item .name{
+	margin-bottom: 10px;
+	min-height: 42px;
+}
+.wrap-tour-hot .list-tour .item .link .price{
+	color: #df0000;
+}
+.table-custom{
+	background: rgba(255, 250, 250, 0.9);
+}
+/* ==========================================================================
+   Responsive CSS
+   ========================================================================== */
+/* #Tablet (Landscape) 1024px */
+
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+/* #Tablet (Portrait) 768px */
+
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* #Mobile (Landscape) 480px */
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.wrap-sails-tour {
+		text-align: center;
+	}
+}
+
+/*  #Mobile (Portrait) 320px
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	.wrap-sails-tour {
+		text-align: center;
+	}
+}

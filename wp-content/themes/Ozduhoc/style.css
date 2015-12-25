@@ -1,0 +1,228 @@
+/*
+Theme Name: Ozduhoc
+Theme URI: http://ozduhoc.local/
+Author: Agilsun
+Author URI: http://themegrill.com
+Version: 1.1.1
+Template:     colormag
+
+*/
+
+@import url("../colormag/style.css");
+
+#header-left-section{
+	width:10%;
+}
+
+.up-right-header{
+	text-align:right;
+	width: 100%;
+}
+
+#header-right-section{
+	width:90%;
+}
+
+.metaslider .slides img {
+	height: 500px;
+    width: 100%;
+}
+
+.list-inline{
+	list-style-type: none;
+  	margin: 0;
+  	padding-bottom: 10px;
+}
+
+.list-inline li{
+	display: inline-block;
+}
+
+input.s{
+	height:100%;
+}
+
+.footer-last{
+	bottom: 0;
+	color: #fff;
+	text-align: center;
+	background-color: #090909;
+}
+
+.footer-ele-block-1{
+	width: 35%;
+}
+
+.footer-ele-block-2{
+	width: 25%;
+}
+
+.footer-ele-block-3{
+	width: 35%;
+}
+
+.footer-ele{
+	display: inline-block;
+	color:#fff;
+	vertical-align: top;
+}
+
+.hr-footer{
+	border: 0;
+    border-bottom: 1px dashed red;
+    /*background: red;*/
+}
+
+.space-div{
+	width:2%;
+	display: inline-block;
+}
+
+
+input[type="button"], input[type="submit"], button {
+    margin-bottom: 0; 
+    padding: 0;
+    background-color: #289dcc;
+    border: 0px;
+    transition: background-color 0.3s linear 0s;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: normal;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+
+#catelist .post{
+	/*width:30%;*/
+	background: #ffffff;
+}
+
+#catelist .post .article-content {
+   padding: 15px;
+}
+#catelist .post .article-content .above-entry-meta .cat-links a {
+   background-color: #289dcc;
+   border-radius: 3px;
+   color: #ffffff;
+   font-size: 12px;
+   padding: 3px 10px;
+}
+#catelist .post .article-content .entry-title {
+   padding: 5px 0 0;
+   font-size: 32px;
+}
+#catelist .post .article-content .entry-title a {
+   color: #232323;
+}
+#catelist .post .article-content .entry-title a:hover {
+   color: #289dcc;
+}
+#catelist .post .article-content .below-entry-meta .posted-on,
+#catelist .post .article-content .below-entry-meta .byline,
+#catelist .post .article-content .below-entry-meta .comments,
+#catelist .post .article-content .below-entry-meta .tag-links {
+   padding-right: 10px;
+}
+#catelist .post .article-content .below-entry-meta .posted-on .fa {
+   color: #888888;
+   font-size: 10px;
+   padding-right: 3px;
+}
+#catelist .post .article-content .below-entry-meta .byline .fa,
+#catelist .post .article-content .below-entry-meta .comments .fa,
+#catelist .post .article-content .below-entry-meta .tag-links .fa,
+#catelist .post .article-content .below-entry-meta .edit-link .fa {
+   color: #888888;
+   padding-right: 5px;
+   font-size: 11px;
+}
+#catelist .post .article-content .below-entry-meta .posted-on a,
+#catelist .post .article-content .below-entry-meta .byline a,
+#catelist .post .article-content .below-entry-meta .comments a,
+#catelist .post .article-content .below-entry-meta .tag-links a,
+#catelist .post .article-content .below-entry-meta .edit-link a {
+  font-size: 12px;
+}
+#catelist .post .article-content .below-entry-meta {
+   padding-bottom: 20px;
+}
+
+
+#catelist .post {
+   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+#catelist .post {
+   margin-bottom: 30px;
+}
+
+#catelist .post img {
+   margin-bottom: 0;
+   padding: 10px 10px 10px 10px;
+   width: 95%;
+}
+
+#catelist .post p a{
+	padding-left: 10px;
+}
+
+#catelist .post .article-content {
+   padding: 15px;
+}
+#catelist .post .article-content .above-entry-meta .cat-links a {
+   background-color: #289dcc;
+   border-radius: 3px;
+   color: #ffffff;
+   font-size: 12px;
+   padding: 3px 10px;
+}
+#catelist .post .article-content .entry-title {
+   padding: 5px 0 0;
+   font-size: 32px;
+}
+#catelist .post .article-content .entry-title a {
+   color: #232323;
+}
+#catelist .post .article-content .entry-title a:hover {
+   color: #289dcc;
+}
+#catelist .post .article-content .below-entry-meta .posted-on,
+#catelist .post .article-content .below-entry-meta .byline,
+#catelist .post .article-content .below-entry-meta .comments,
+#catelist .post .article-content .below-entry-meta .tag-links {
+   padding-right: 10px;
+}
+#catelist .post .article-content .below-entry-meta .posted-on .fa {
+   color: #888888;
+   font-size: 10px;
+   padding-right: 3px;
+}
+#catelist .post .article-content .below-entry-meta .byline .fa,
+#catelist .post .article-content .below-entry-meta .comments .fa,
+#catelist .post .article-content .below-entry-meta .tag-links .fa,
+#catelist .post .article-content .below-entry-meta .edit-link .fa {
+   color: #888888;
+   padding-right: 5px;
+   font-size: 11px;
+}
+#catelist .post .article-content .below-entry-meta .posted-on a,
+#catelist .post .article-content .below-entry-meta .byline a,
+#catelist .post .article-content .below-entry-meta .comments a,
+#catelist .post .article-content .below-entry-meta .tag-links a,
+#catelist .post .article-content .below-entry-meta .edit-link a {
+  font-size: 12px;
+}
+#catelist .post .article-content .below-entry-meta {
+   padding-bottom: 20px;
+}
+
+
+.widget_showacategory_widget{
+	float: left;
+	width: 30%;
+	padding-right: 3%;
+}
