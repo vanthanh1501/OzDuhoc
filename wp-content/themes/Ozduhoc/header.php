@@ -39,7 +39,9 @@
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/owl.transitions.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/superfish.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/datepicker.css">
-  
+
+  <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/partner.css">  
+  <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/event.css">  
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/main.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/home.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/single.css">

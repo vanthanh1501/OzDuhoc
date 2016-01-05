@@ -64,3 +64,85 @@
 @media only screen and (min-width: 100px) and (max-width: 479px) {
 
 }
+
+
+
+
+/*===============================
+
+OZDUHOC - POST
+
+================================*/
+.header-cate{
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.article-header{
+    margin-left: 35px;
+    margin-right: 15px;
+    font-weight: bold;
+    /*margin-top: 0;*/
+}
+
+.p-lastest-post{
+    padding-top: 5px;
+}
+
+.article-content{
+    min-height: 180px;
+}
+
+.article-content-lastest{
+    min-height: 50px;
+}
+
+.lastest-post-cate-box{
+    min-height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lastest-post-cate-box p{
+    border-top: 1px solid #e7e7e7;
+}
+
+.lastest-post-cate-box a{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lastest-post-cate-box img{
+    margin-bottom: 0;
+}
+
+.post-content-title{
+    border-bottom: 1px solid  #da0158;
+}
+
+.article-header-single {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.article-header-single-date{
+    text-align: right;
+    font-style: italic;
+}
+
+.a-black a{
+    color: #000;
+    font-weight: bold;
+}
+
+.a-black{   
+    padding-bottom: 0;
+    padding-left: 15px;
+}

@@ -1,0 +1,46 @@
+.tribe-events-list-widget .widget-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px dashed #e7e7e7;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.tribe-events-list-widget .widget-title span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tribe-event-duration{
+    font-size: 13px;
+}
+
+.tribe-events-event-image{
+    margin-bottom: 0;
+    text-align: left;
+    margin: 0;    
+    float: left;    
+    padding: 5px 15px 0px 15px;
+}
+
+.tribe-events-event-image img {
+    height: 40px;
+    width: 40px !important;
+}
+
+.tribe-events-list-widget .widget-title{
+    background-color: #fff;
+}
+
+.cate-name-title-box,.tribe-events-list-widget{
+    /*background-color: green;  */
+    height: 45px;
+    border-bottom: 1px dashed #e7e7e7;
+}
+
+.tribe-events-list-widget ol li{
+    margin-bottom : 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

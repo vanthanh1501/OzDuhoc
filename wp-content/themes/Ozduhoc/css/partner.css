@@ -1,0 +1,31 @@
+
+ .partner-cate{
+    border-bottom: 1px solid gray;
+ }
+
+.partner-box-title{
+    padding-bottom: 15px;
+    /*text-align: center;*/
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.ul-partner-list li{
+    list-style-type: none;
+}
+#loadMore {
+    color:green;
+    cursor:pointer;
+}
+#loadMore:hover {
+    color:black;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+    display: none;
+}
+#showLess:hover {
+    color:black;
+}
