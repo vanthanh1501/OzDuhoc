@@ -101,8 +101,9 @@
                 <li><a>Giải Trí</a></li>
                 <li><a>Việc Làm</a></li>
                 <li><a>Luật Pháp</a></li>
+                
                 <li><a class="menu-main-special">Sự Kiện</a></li>
-                <li><a class="menu-main-special">Đối Tác</a></li>
+                <li><a href="<?php echo get_page_link(1294) ?>" class="menu-main-special">Đối Tác</a></li><!-- 1294 -->
               </ul>
             </nav>
             <!-- end menu nav -->

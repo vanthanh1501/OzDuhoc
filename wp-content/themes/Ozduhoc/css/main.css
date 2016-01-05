@@ -15,41 +15,7 @@ form {
     margin: 0
 }
 
-.post-content-title{
-	border-bottom: 1px solid  #da0158;
-}
 
-#myList li{ display:none;
-}
-#loadMore {
-    color:green;
-    cursor:pointer;
-}
-#loadMore:hover {
-    color:black;
-}
-#showLess {
-    color:red;
-    cursor:pointer;
-}
-#showLess:hover {
-    color:black;
-}
-.article-header-single {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: justify;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-
-.article-header-single-date{
-	text-align: right;
-	font-style: italic;
-}
 
 a {
 	color: #337ab7; 
@@ -67,14 +33,7 @@ input, input:focus {
     outline: none
 }
 
-#footer .container{
-	background-color : #252525;
-}
 
-#container .container ,#footer .container{
-    max-width: 1060px;
-    height: auto;
-}
 body,h1,h2,h3,h4,p,a {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -90,10 +49,6 @@ body,h1,h2,h3,h4,p,a {
     background: 0;
     border: 0;
     display: inline-block;
-}
-
-.main-footer{
-	position: relative;
 }
 
 .main{
@@ -256,9 +211,8 @@ header .hotline-top {
 	padding-left: 10px;
 	
 }
-.send-mail{
-	margin-top: 20px !important;
-}
+
+
 .eemail_button{
 	text-align: center;
 	margin-bottom: 13px;
@@ -325,73 +279,10 @@ header .hotline-top {
 }
 
 
+
 /******************booking tour*********************/
 
-.img-in-Box img{
-	/*max-width: 95%;*/
-	max-height: 200px;	
-	/*margin: 10px;*/
-}
 
-.header-cate{
-	padding-top: 10px;
-	text-transform: uppercase;
-}
-
-.article-header{
-	margin-left: 35px;
-    margin-right: 15px;
-    font-weight: bold;
-    /*margin-top: 0;*/
-}
-
-.p-lastest-post{
-	padding-top: 5px;
-}
-
-.article-content{
-	min-height: 180px;
-}
-
-.article-content-lastest{
-	min-height: 50px;
-}
-
-.lastest-post-cate-box{
-	min-height: 100px;
-	margin-left: 15px;
-    margin-right: 15px;
-}
-
-.lastest-post-cate-box p{
-    border-top: 1px solid #e7e7e7;
-}
-
-.lastest-post-cate-box a{
-	color: #000;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.lastest-post-cate-box img{
-	margin-bottom: 0;
-}
-
-.a-black a{
-	color: #000;
-	font-weight: bold;
-}
-
-.a-black{	
-	padding-bottom: 0;
-	padding-left: 15px;
-}
-
-.tribe-events-list-widget ol li{
-	margin-bottom : 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 
 .entry-content, .entry-content-event{
 	margin-left: 15px;
@@ -426,77 +317,6 @@ header .hotline-top {
 .copyright{
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
-
-.cate-name-title-box,.tribe-events-list-widget{
-	/*background-color: green;	*/
-	height: 45px;
-	border-bottom: 1px dashed #e7e7e7;
-}
-
-.recent-width{
-	padding-left: 25px;
-	padding-right: 25px;
-}
-
-.event-width{
-	padding-left: 10px;
-}
-
-.register-receive-email{
-	padding-top: 10px;
-}
-
-.tribe-events-list-widget .widget-title{
-	margin-top: 0;
-	margin-bottom: 0;
-	border-bottom: 1px dashed #e7e7e7;
-	padding-top: 23px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-}
-
-.tribe-events-list-widget .widget-title span{
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.tribe-event-duration{
-	font-size: 13px;
-}
-
-.tribe-events-event-image{
-	margin-bottom: 0;
-    text-align: left;
-    margin: 0;    
-    float: left;    
-    padding: 5px 15px 0px 15px;
-}
-
-.tribe-events-event-image img {
-	height: 40px;
-	width: 40px !important;
-}
-
-.recent-author{
-	float: left;
-	padding-left: 10px;
-	font-style: italic;
-}
-
-.recent-date{
-	float: right;
-	padding-right: 10px;
-	font-style: italic;
-}
-
-.col-md-4-fix, .col-md-6-fix{
-	padding-right: 10px;
-    padding-left: 10px;
-}
-
-.col-md-6-fix{
-	padding-bottom: 40px;
 }
 
 .booking-tour{
@@ -699,23 +519,6 @@ footer ul, footer li {
     margin: 0px;
     padding: 0px;	
 }
-
-
-.tribe-events-list-widget .widget-title{
-	background-color: #fff;
-}
-
-.footer-title{
-	padding-bottom: 15px;
-}
-
-.box-cate{
-	background-color: #fff;
-	-webkit-box-shadow: 5px 5px 5px 0px rgba(230,230,230,1);
-	-moz-box-shadow: 5px 5px 5px 0px rgba(230,230,230,1);
-	box-shadow: 5px 5px 5px 0px rgba(230,230,230,1);
-}
-
 footer{
 	background-color:  #e9e9e9;
 }
@@ -754,9 +557,7 @@ footer .fan-page {
 }
 
 
-#footer{
-	padding-top: 10px;
-}
+
 
 /* ==========================================================================
    Responsive CSS
@@ -972,3 +773,5 @@ header .wrap-menu .menu-main ul.sub-menu li a{
 .sf-arrows > li > .sf-with-ul:focus:after, .sf-arrows > li:hover > .sf-with-ul:after, .sf-arrows > .sfHover > .sf-with-ul:after{
 	border-top-color: #12b6c0;
 }
+
+
