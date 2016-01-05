@@ -68,24 +68,39 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 			'post_status'         => 'publish',
 			'ignore_sticky_posts' => true
 		) ) );
-
+		//query_posts("orderby=date&order=DESC&post_type=post&post_status=publish&showposts=-1");
 		if ($r->have_posts()) :
 		?>
 		<?php echo $args['before_widget']; ?>
 		<?php if ( $title ) {
-			echo $args['before_title'] . $title . $args['after_title'];
+			//echo $args['before_title'] . $title . $args['after_title'];
 		} ?>
-		<ul>
+		
+		<div class="row box-cate">
+			<div class="cate-name-title-box">
+	           	<h3 class="article-header header-cate">
+	                <?php echo $title; ?>
+	            </h3>
+	        </div>
 		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
-			<li>
-				<a href="<?php the_permalink(); ?>"><?php get_the_title() ? the_title() : the_ID(); ?></a>
-			<?php if ( $show_date ) : ?>
-				<span class="post-date"><?php echo get_the_date(); ?></span>
-			<?php endif; ?>
-			</li>
+			<div class="col-md-6 item col-md-6-fix">
+				<?php if ( has_post_thumbnail() ) { ?>
+                    <div class="featured-image align-feature-image">
+                        <a class="img-in-Box" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'colormag-featured-image' ); ?></a>
+                    </div>
+                <?php } ?>
+                <div class="article-content-lastest clearfix">
+                    <header class="entry-header">
+                        <h2 class="entry-title">
+                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?></a>
+                        </h2>
+                    </header>
+                </div>
+				<strong class="recent-author">Admin</strong><span class="recent-date post-date"><?php echo get_the_date(); ?></span>
+			</div>
 		<?php endwhile; ?>
-		</ul>
-		<?php echo $args['after_widget']; ?>
+		</div>
+		<?php //echo $args['after_widget']; ?>
 		<?php
 		// Reset the global $the_post as this query will have stomped on it
 		wp_reset_postdata();

@@ -37,33 +37,30 @@ if ( $posts ) : ?>
 		foreach ( $posts as $post ) :
 			setup_postdata( $post );
 			?>
-			<li class="tribe-events-list-widget-events <?php tribe_events_event_classes() ?>">
+			<li class="tribe-events-list-widget-events <?php tribe_events_event_classes() ?> box-cate">
 
 				<?php do_action( 'tribe_events_list_widget_before_the_event_title' ); ?>
-				<!-- Event Title -->
-				<h4 class="tribe-event-title">
-					<a href="<?php echo esc_url( tribe_get_event_link() ); ?>" rel="bookmark"><?php the_title(); ?></a>
-				</h4>
-
-				<?php do_action( 'tribe_events_list_widget_after_the_event_title' ); ?>
 				<!-- Event Time -->
-
 				<?php do_action( 'tribe_events_list_widget_before_the_meta' ) ?>
-
+				<?php echo tribe_event_featured_image(); ?>
 				<div class="tribe-event-duration">
 					<?php echo tribe_events_event_schedule_details(); ?>
 				</div>
 
 				<?php do_action( 'tribe_events_list_widget_after_the_meta' ) ?>
+				<!-- Event Title -->
+				<h4 class="tribe-event-title a-black">
+					<a href="<?php echo esc_url( tribe_get_event_link() ); ?>" rel="bookmark"><?php the_title(); ?></a>
+				</h4>
+				<div class="entry-content-event">
+					<?php echo tribe_events_get_the_excerpt(); ?>
+				</div>
+				<?php do_action( 'tribe_events_list_widget_after_the_event_title' ); ?>
 			</li>
 		<?php
 		endforeach;
 		?>
 	</ol><!-- .tribe-list-widget -->
-
-	<p class="tribe-events-widget-link">
-		<a href="<?php echo esc_url( tribe_get_events_link() ); ?>" rel="bookmark"><?php printf( esc_html__( 'View All %s', 'the-events-calendar' ), $events_label_plural ); ?></a>
-	</p>
 
 <?php
 // No events were found.

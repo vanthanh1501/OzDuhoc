@@ -13,6 +13,7 @@
 .es_textbox 
 {
 	padding-bottom:10px;
+	position: relative;
 }
 .es_button 
 {
@@ -25,7 +26,7 @@
 }
 .es_textbox_button 
 {
-	width:100px;
+	/*width:100px;*/
 }
 .es_lablebox
 {

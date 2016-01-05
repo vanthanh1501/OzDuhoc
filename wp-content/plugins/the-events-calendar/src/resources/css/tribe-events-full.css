@@ -222,8 +222,9 @@ a.tribe-events-gcal {
 
 /* Featured Images */
 .tribe-events-event-image {
-	margin: 0 0 20px 0;
+/*	margin: 0 0 20px 0;
 	text-align: center;
+	*/
 }
 
 .tribe-events-event-image img {

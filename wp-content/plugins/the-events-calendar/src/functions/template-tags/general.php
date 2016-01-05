@@ -832,6 +832,10 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 			$featured_image .= '<div class="tribe-events-event-image">' . $image_html . '</div>';
 		}
 
+		if($featured_image == ''){
+			$featured_image .= '<div class="tribe-events-event-image"><img></div>';
+		}
+
 		return apply_filters( 'tribe_event_featured_image', $featured_image, $post_id, $size );
 	}
 
@@ -874,7 +878,7 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 			$event = get_post( $event );
 		}
 
-		$inner                    = '<span class="tribe-event-date-start">';
+		$inner                    = '<div class="tribe-event-date-start">';
 		$format                   = '';
 		$date_without_year_format = tribe_get_date_format();
 		$date_with_year_format    = tribe_get_date_format( true );
@@ -898,21 +902,22 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 		 */
 		extract( $settings );
 
-		$format = $date_with_year_format;
+		$format = 'M, d, Y';//$date_with_year_format;
 
 		// if it starts and ends in the current year then there is no need to display the year
-		if ( tribe_get_start_date( $event, false, 'Y' ) === date( 'Y' ) && tribe_get_end_date( $event, false, 'Y' ) === date( 'Y' ) ) {
+		/*if ( tribe_get_start_date( $event, false, 'Y' ) === date( 'Y' ) && tribe_get_end_date( $event, false, 'Y' ) === date( 'Y' ) ) {
 			$format = $date_without_year_format;
 		}
+		*/
 
 		if ( tribe_event_is_multiday( $event ) ) { // multi-date event
 
 			$format2ndday = apply_filters( 'tribe_format_second_date_in_range', $format, $event );
 
 			if ( tribe_event_is_all_day( $event ) ) {
-				$inner .= tribe_get_start_date( $event, true, $format );
-				$inner .= '</span>' . $time_range_separator;
-				$inner .= '<span class="tribe-event-date-end">';
+				$inner .= '<b>'.tribe_get_start_date( $event, true, $format ). '</b>';
+				$inner .= '</div>' . "To";
+				$inner .= '<div class="tribe-event-date-end">';
 
 				$end_date_full = tribe_get_end_date( $event, true, Tribe__Date_Utils::DBDATETIMEFORMAT );
 				$end_date_full_timestamp = strtotime( $end_date_full );
@@ -924,12 +929,12 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 					$end_date = tribe_get_end_date( $event, false, $format2ndday );
 				}
 
-				$inner .= $end_date;
+				$inner .= '<b>'.$end_date.'</b>';
 			} else {
-				$inner .= tribe_get_start_date( $event, false, $format ) . ( $time ? $datetime_separator . tribe_get_start_date( $event, false, $time_format ) : '' );
-				$inner .= '</span>' . $time_range_separator;
-				$inner .= '<span class="tribe-event-date-end">';
-				$inner .= tribe_get_end_date( $event, false, $format2ndday ) . ( $time ? $datetime_separator . tribe_get_end_date( $event, false, $time_format ) : '' );
+				$inner .= '<b>'.tribe_get_start_date( $event, false, $format ) . '</b>' . "  " . ( $time ? tribe_get_start_date( $event, false, $time_format ) : '' );
+				$inner .= '</div>' . "To";
+				$inner .= '<div class="tribe-event-date-end">';
+				$inner .= '<b>'.tribe_get_end_date( $event, false, $format2ndday ) .'</b>'. "  " . ( $time ? tribe_get_end_date( $event, false, $time_format ) : '' );
 			}
 		} elseif ( tribe_event_is_all_day( $event ) ) { // all day event
 			$inner .= tribe_get_start_date( $event, true, $format );
@@ -938,13 +943,13 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 				$inner .= tribe_get_start_date( $event, false, $format ) . ( $time ? $datetime_separator . tribe_get_start_date( $event, false, $time_format ) : '' );
 			} else { // defined start/end time
 				$inner .= tribe_get_start_date( $event, false, $format ) . ( $time ? $datetime_separator . tribe_get_start_date( $event, false, $time_format ) : '' );
-				$inner .= '</span>' . ( $show_end_time ? $time_range_separator : '' );
-				$inner .= '<span class="tribe-event-time">';
+				$inner .= '</div>' . ( $show_end_time ? $time_range_separator : '' );
+				$inner .= '<div class="tribe-event-time">';
 				$inner .= ( $show_end_time ? tribe_get_end_date( $event, false, $time_format ) : '' );
 			}
 		}
 
-		$inner .= '</span>';
+		$inner .= '</div>';
 
 		/**
 		 * Provides an opportunity to modify the *inner* schedule details HTML (ie before it is

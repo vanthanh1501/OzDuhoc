@@ -31,7 +31,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="fb:app_id" content="460242270813547" />
   <meta property="fb:admins" content="100003897150179"/>
-  <link rel="icon" href="<?php echo bloginfo('stylesheet_directory'); ?>/favicon.png" type="image/x-icon" />
+  <link rel="icon" type="image/png" href="<?php echo bloginfo('stylesheet_directory'); ?>/favicon.png" />
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/owl.carousel.css">
@@ -76,8 +76,8 @@
             <div class="menu-above">
               <div class="multi-language">
                 <ul>
-                  <li>About Us</li>
-                  <li>Facebook</li>
+                  <li><a class="menu-main-special" href="<?php echo get_bloginfo('url'); ?>">About Us</a></li>
+                  <li><a href="https://www.facebook.com/ozduhoc.com.au">Facebook</a></li>
                   <li><?php the_widget( 'WP_Widget_Search', $instance, $args ); ?></li>
                 </ul>
               </div>
@@ -101,8 +101,8 @@
                 <li><a>Giải Trí</a></li>
                 <li><a>Việc Làm</a></li>
                 <li><a>Luật Pháp</a></li>
-                <li><a>Sự Kiện</a></li>
-                <li><a>Đối Tác</a></li>
+                <li><a class="menu-main-special">Sự Kiện</a></li>
+                <li><a class="menu-main-special">Đối Tác</a></li>
               </ul>
             </nav>
             <!-- end menu nav -->

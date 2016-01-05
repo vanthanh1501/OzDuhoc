@@ -24,6 +24,5 @@ do_action( 'tribe_events_before_template' );
 <?php tribe_get_template_part( 'list/content' ); ?>
 
 	<div class="tribe-clear"></div>
-
 <?php
 do_action( 'tribe_events_after_template' );

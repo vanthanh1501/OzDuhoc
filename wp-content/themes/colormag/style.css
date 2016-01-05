@@ -290,15 +290,11 @@ input.s {
 	padding: 4px 54px 4px 10px;
 	height: 36px;
 	color: #777777;
-	background-color: #FFFFFF;
+	background-color: transparent;
 	margin: 0;
-	border: 1px solid #EAEAEA;
+	/*border: 1px solid #EAEAEA;*/
 }
-input.s:focus {
-	padding-left: 10px;
-	border-color: #EAEAEA;
-	text-indent: 0;
-}
+
 .colormag-button,
 input[type="reset"],
 input[type="button"],
@@ -613,9 +609,9 @@ body {
    /*line-height: 45px;*/
    margin-bottom: 0;
    padding: 0 15px;
-   /*position: absolute;*/
-   top: 0;
-   right: 0;
+   position: absolute;
+   top: 2px;
+   right: 11px;
 }
 .search-icon:before {
    content: "\f002";
@@ -623,8 +619,9 @@ body {
    font-style: normal;
    font-weight: normal;
    text-decoration: inherit;
-   color: #ffffff;
+   color: #da0158;
    font-size: 18px;
+    position: absolute;
 }
 .search-form-top {
    border: 1px solid #eaeaea;
@@ -907,7 +904,7 @@ li.default-menu {
 .sticky {
 }
 #main {
-	padding-top: 30px;
+	/*padding-top: 30px;*/
 	padding-bottom: 20px;
 	background-color: #f1f1f1;
 }
@@ -1366,7 +1363,7 @@ li.default-menu {
 	color: #289dcc;
 }
 #colophon .widget {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 #colophon, #colophon p {
 	font-size: 14px;

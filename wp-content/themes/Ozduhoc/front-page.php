@@ -1,40 +1,38 @@
 <?php get_header(); ?>
 
-<div class="main" Id="container">
+<div class="main" Id="main">
     <!-- Slider -->
     <section class="wrap-slider">
       	<div class="container">
       		<div class="row">
-          		<div class="col-md-9">
-          			content top
+          		<div class="col-md-8 recent-width">
+          			<?php
+				        if( is_active_sidebar( 'colormag_front_page_content_bottom_section' ) ) {
+				           if ( !dynamic_sidebar( 'colormag_front_page_content_bottom_section' ) ):
+				           endif;
+				        }
+				    ?>
           		</div>
-          		<div class="col-md-3">
-          			sibar right
+          		<div class="col-md-4 event-width">
+          			<?php
+				        if( is_active_sidebar( 'colormag_right_sidebar' ) ) {
+				           if ( !dynamic_sidebar( 'colormag_right_sidebar' ) ):
+				           endif;
+				        }
+				    ?>
           		</div>
           	</div>
       </div>
     </section>
     <section>
     	<div class="container">
-      		<div class="row">
-      			<div class="col-md-4 col-sm-6 item">
-          			cate 1
-          		</div>
-          		<div class="col-md-4 col-sm-6 item">
-          			cate 2
-          		</div>
-          		<div class="col-md-4 col-sm-6 item">
-          			cate 3
-          		</div>
-          		<div class="col-md-4 col-sm-6 item">
-          			cate 4
-          		</div>
-          		<div class="col-md-4 col-sm-6 item">
-          			cate 5
-          		</div>
-          		<div class="col-md-4 col-sm-6 item">
-          			cate 6
-          		</div>
+      		<div class="row">      			
+          			<?php
+				        if( is_active_sidebar( 'category-list' ) ) {
+				           if ( !dynamic_sidebar( 'category-list' ) ):
+				           endif;
+				        }
+				    ?>
       		</div>
       	</div>
     </section>

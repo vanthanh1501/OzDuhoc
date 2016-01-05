@@ -1,21 +1,19 @@
-2
-
-		</div><!-- .inner-wrap -->
+</div><!-- .inner-wrap -->
 	</div><!-- #main -->
   
 
 	<?php do_action( 'colormag_before_footer' ); ?>
 		<footer id="colophon" class="clearfix">
-			<div id="container">
+			<div id="footer">
 				<div class="container">
 		          	<div class="row">
 		            	<div class="col-md-4">
 		            		<hr class="hr-footer">
 		             		<ul>
-								<li><a>Trang chủ</a></li>
-								<li><a>Giới thiệu</a></li>
-								<li>
-									<span>Đăng ký nhận tin</span><br />
+								<li class="footer-title"><a class="text-color-a">Trang chủ</a></li>
+								<li class="footer-title"><a class="text-color-a">Giới thiệu</a></li>
+								<li class="register-receive-email">
+									<span class="text-color-a">Đăng ký nhận tin</span><br />
 									<?php the_widget( 'es_widget_register', $instance, $args ); ?> 
 								</li>
 								<li>
@@ -23,13 +21,15 @@
 										<img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/dmca_protected.png" alt="DMCA.com Protection Status">
 									</a>
 								</li>
-								<li><a>Term of use</a></li>
+								<li><a class="text-color-category">Term of use</a></li>
 							</ul>
 		            	</div>
 
 		            	<div class="col-md-4">
 		              		<hr class="hr-footer">
-							<strong>Danh mục</strong>
+		              		<div class="footer-title">
+								<strong class="text-color-a">Danh mục</strong>
+							</div>
 							<ul>
 								<?php 
 									$args = array(
@@ -38,17 +38,19 @@
 									  );
 									$categories = get_categories( $args ); ?> 
 								<?php foreach ($categories as $category) { ?>
-									<li><a href="<?php echo get_category_link( $category->term_id ); ?>"><?php echo $category->name; ?></a></li>
+									<li><a class="text-color-category" href="<?php echo get_category_link( $category->term_id ); ?>"><?php echo $category->name; ?></a></li>
 								<?php } ?>
 							</ul>
 		           		</div>
 
 		            	<div class="col-md-4">
 		              		<hr class="hr-footer">
-							<strong>Liên Hệ</strong><br />
-							<label>Phone 1: +61 478 066 001</span><br/>
-							<span>Phone 2: +61 415 909 388</span><br/>
-							<span>Email : contact@ozduhoc.com.au</span><br/>
+		              		<div class="footer-title">
+								<strong class="text-color-a">Liên Hệ</strong>
+							</div>
+							<label class="text-color-category">Phone 1: +61 478 066 001</label><br/>
+							<label class="text-color-category">Phone 2: +61 415 909 388</label><br/>
+							<label  class="text-color-category">Email : contact@ozduhoc.com.au</label><br/>
 							<div class="fb-page" 
 								data-href="https://www.facebook.com/ozduhoc.com.au" 
 								data-width="100%" 
@@ -66,7 +68,9 @@
 		          	</div>
 		        </div>
 			</div>
-			<div class="footer-last">Developed by Agilsun</div>
+			<div class="footer-last">
+				<div class="copyright">Developed by Agilsun</div>
+			</div>
 		</footer>
 		<a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
 	</div><!-- #page -->
