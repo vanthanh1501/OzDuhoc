@@ -7,7 +7,7 @@
 				<div class="container container-fix-padding">
 				<div class="footer-padding-br">
 		          	<div class="row row-fix-margin">
-		            	<div class="col-md-4 col-fix-padding">
+		            	<div class="col-md-4 ">
 		            		<hr class="hr-footer">
 		             		<ul>
 								<li class="footer-title"><a class="text-color-a">Trang chủ</a></li>
@@ -25,7 +25,7 @@
 							</ul>
 		            	</div>
 
-		            	<div class="col-md-4 col-fix-padding">
+		            	<div class="col-md-4 ">
 		              		<hr class="hr-footer">
 		              		<div class="footer-title">
 								<strong class="text-color-a">Danh mục</strong>
@@ -43,7 +43,7 @@
 							</ul>
 		           		</div>
 
-		            	<div class="col-md-4 col-fix-padding">
+		            	<div class="col-md-4 ">
 		              		<hr class="hr-footer">
 		              		<div class="footer-title">
 								<strong class="text-color-a">Liên Hệ</strong>

@@ -45,3 +45,16 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.tribe-event-title{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.entry-content-event{
+     border-bottom: 1px solid #e7e7e7;
+}
+
+.entry-content-event p{
+    font-size: 14px;
+}

@@ -107,6 +107,10 @@ OZDUHOC - POST
     border-top: 1px solid #e7e7e7;
 }
 
+.p-lastest-post span {
+    padding-right: 5px;
+}
+
 .lastest-post-cate-box a{
     color: #000;
     font-weight: bold;

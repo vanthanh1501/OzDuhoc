@@ -38,18 +38,7 @@ body,h1,h2,h3,h4,p,a {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.es_textbox_button{
-    position: absolute;
-    right: 3px;
-    top: 7px;
-    font-size: 15px;
-    color: #c30d23;
-    margin-top: 0px;
-    margin-right: 20px;
-    background: 0;
-    border: 0;
-    display: inline-block;
-}
+
 
 .main{
 	background-color: #f8f8f8;
@@ -293,13 +282,7 @@ header .hotline-top {
    
 }
 
-.entry-content-event{
-	 border-bottom: 1px solid #e7e7e7;
-}
 
-.entry-content-event p{
-	font-size: 12px;
-}
 
 .entry-title{
 	min-height: 40px;
@@ -317,6 +300,7 @@ header .hotline-top {
 .copyright{
 	padding-top: 5px;
 	padding-bottom: 5px;
+	font-size: 12px;
 }
 
 .booking-tour{
