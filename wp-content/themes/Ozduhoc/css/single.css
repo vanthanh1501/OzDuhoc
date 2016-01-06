@@ -74,7 +74,7 @@ OZDUHOC - POST
 
 ================================*/
 .header-cate{
-    padding-top: 10px;
+    padding-top: 15px;
     text-transform: uppercase;
 }
 
@@ -145,4 +145,16 @@ OZDUHOC - POST
 .a-black{   
     padding-bottom: 0;
     padding-left: 15px;
+}
+
+.Uppercase-header {
+    text-transform: uppercase;
+}
+
+.h3-18 {
+    font-size: 18px;
+}
+
+.title-16{
+    font-size: 16px;
 }

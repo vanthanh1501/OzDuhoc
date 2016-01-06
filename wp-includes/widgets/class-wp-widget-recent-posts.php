@@ -75,30 +75,31 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		<?php if ( $title ) {
 			//echo $args['before_title'] . $title . $args['after_title'];
 		} ?>
-		
-		<div class="row box-cate">
-			<div class="cate-name-title-box">
-	           	<h3 class="article-header header-cate">
-	                <?php echo $title; ?>
-	            </h3>
-	        </div>
-		<?php while ( $r->have_posts() ) : $r->the_post(); ?>
-			<div class="col-md-6 item col-md-6-fix">
-				<?php if ( has_post_thumbnail() ) { ?>
-                    <div class="featured-image align-feature-image">
-                        <a class="img-in-Box" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'colormag-featured-image' ); ?></a>
-                    </div>
-                <?php } ?>
-                <div class="article-content-lastest clearfix">
-                    <header class="entry-header">
-                        <h2 class="entry-title">
-                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?></a>
-                        </h2>
-                    </header>
-                </div>
-				<strong class="recent-author">Admin</strong><span class="recent-date post-date"><?php echo get_the_date(); ?></span>
+		<div class="box-cate">
+			<div class="row row-fix-margin">
+				<div class="cate-name-title-box">
+		           	<h3 class="article-header Uppercase-header h3-18">
+		                <?php echo $title; ?>
+		            </h3>
+		        </div>
+			<?php while ( $r->have_posts() ) : $r->the_post(); ?>
+				<div class="col-md-6 item col-fix-padding recent-box-padding">
+					<?php if ( has_post_thumbnail() ) { ?>
+	                    <div class="featured-image align-feature-image">
+	                        <a class="img-in-Box" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'colormag-featured-image' ); ?></a>
+	                    </div>
+	                <?php } ?>
+	                <div class="article-content-lastest clearfix">
+	                    <header class="entry-header">
+	                        <h2 class="entry-title title-16">
+	                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?></a>
+	                        </h2>
+	                    </header>
+	                </div>
+					<strong class="recent-author">Admin</strong><span class="recent-date post-date"><?php echo get_the_date(); ?></span>
+				</div>
+			<?php endwhile; ?>
 			</div>
-		<?php endwhile; ?>
 		</div>
 		<?php //echo $args['after_widget']; ?>
 		<?php

@@ -272,12 +272,14 @@
     float: left;
     padding-left: 10px;
     font-style: italic;
+    font-size: 14px;
 }
 
 .recent-date{
     float: right;
     padding-right: 10px;
     font-style: italic;
+    font-size: 14px;
 }
 
 .col-md-4-fix, .col-md-6-fix{
@@ -314,10 +316,6 @@
     position: relative;
 }
 
-#footer .container{
-    background-color : #252525;
-}
-
 #container .container ,#footer .container{
     max-width: 1060px;
     height: auto;
@@ -325,4 +323,9 @@
 
 .send-mail{
     margin-top: 20px !important;
+}
+
+.footer-padding-br {
+	background-color: #252525;
+    padding: 10px;
 }

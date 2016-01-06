@@ -1,13 +1,13 @@
-</div><!-- .inner-wrap -->
 	</div><!-- #main -->
   
 
 	<?php do_action( 'colormag_before_footer' ); ?>
 		<footer id="colophon" class="clearfix">
 			<div id="footer">
-				<div class="container">
-		          	<div class="row">
-		            	<div class="col-md-4">
+				<div class="container container-fix-padding">
+				<div class="footer-padding-br">
+		          	<div class="row row-fix-margin">
+		            	<div class="col-md-4 col-fix-padding">
 		            		<hr class="hr-footer">
 		             		<ul>
 								<li class="footer-title"><a class="text-color-a">Trang chủ</a></li>
@@ -25,7 +25,7 @@
 							</ul>
 		            	</div>
 
-		            	<div class="col-md-4">
+		            	<div class="col-md-4 col-fix-padding">
 		              		<hr class="hr-footer">
 		              		<div class="footer-title">
 								<strong class="text-color-a">Danh mục</strong>
@@ -43,7 +43,7 @@
 							</ul>
 		           		</div>
 
-		            	<div class="col-md-4">
+		            	<div class="col-md-4 col-fix-padding">
 		              		<hr class="hr-footer">
 		              		<div class="footer-title">
 								<strong class="text-color-a">Liên Hệ</strong>
@@ -66,6 +66,7 @@
 							</div>
 		            	</div>
 		          	</div>
+		        </div>
 		        </div>
 			</div>
 			<div class="footer-last">

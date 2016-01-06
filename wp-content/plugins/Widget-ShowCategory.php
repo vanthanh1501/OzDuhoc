@@ -76,7 +76,7 @@ class ShowACategory_Widget extends WP_Widget {
             <div class="col-md-4 col-sm-6 item col-md-4-fix">
              <article id="post-<?php the_ID(); ?>" class="box-cate" <?php post_class(); ?>>
                 <div class="cate-name-title-box">
-                    <h3 class="article-header header-cate">
+                    <h3 class="article-header header-cate h3-18">
                         <?php echo $title; ?>
                     </h3>
                 </div>
@@ -90,7 +90,7 @@ class ShowACategory_Widget extends WP_Widget {
                             <?php } ?>
                             <div class="article-content clearfix">
                                 <header class="entry-header">
-                                    <h2 class="entry-title">
+                                    <h2 class="entry-title title-16">
                                         <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute();?>"><?php the_title(); ?></a>
                                     </h2>
                                 </header>

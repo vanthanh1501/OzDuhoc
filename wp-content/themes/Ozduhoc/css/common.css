@@ -61,7 +61,7 @@
  
 .navigation li a:hover,
 .navigation li.active a {
-    background-color: #3C8DC5;</span>
+    background-color: #3C8DC5;
 }
 
 .img-in-Box img{
@@ -73,3 +73,22 @@
 
 /*end new style paging*/
 
+.container-fix-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row-fix-margin{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col-fix-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.recent-box-padding {
+    padding-bottom: 15px;
+}
