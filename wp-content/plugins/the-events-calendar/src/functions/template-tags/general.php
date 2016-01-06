@@ -839,6 +839,28 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 		return apply_filters( 'tribe_event_featured_image', $featured_image, $post_id, $size );
 	}
 
+	function tribe_event_featured_image_single( $post_id = null, $size = 'full', $link = true ) {
+		if ( is_null( $post_id ) ) {
+			$post_id = get_the_ID();
+		}
+
+		$image_html     = get_the_post_thumbnail( $post_id, $size );
+		$featured_image = '';
+
+		//if link is not specifically excluded, then include <a>
+		if ( ! empty( $image_html ) && $link ) {
+			$featured_image .= '<div><a href="' . esc_url( tribe_get_event_link() ) . '">' . $image_html . '</a></div>';
+		} elseif ( ! empty( $image_html ) ) {
+			$featured_image .= '<div>' . $image_html . '</div>';
+		}
+
+		if($featured_image == ''){
+			$featured_image .= '<div><img></div>';
+		}
+
+		return apply_filters( 'tribe_event_featured_image_single', $featured_image, $post_id, $size );
+	}
+
 	/**
 	 * Return the details of the start/end date/time.
 	 *
@@ -916,8 +938,8 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 
 			if ( tribe_event_is_all_day( $event ) ) {
 				$inner .= '<b>'.tribe_get_start_date( $event, true, $format ). '</b>';
-				$inner .= '</div>' . "To";
-				$inner .= '<div class="tribe-event-date-end">';
+				$inner .= '<span> - </span>';
+				//$inner .= '<div class="tribe-event-date-end">';
 
 				$end_date_full = tribe_get_end_date( $event, true, Tribe__Date_Utils::DBDATETIMEFORMAT );
 				$end_date_full_timestamp = strtotime( $end_date_full );

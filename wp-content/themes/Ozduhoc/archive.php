@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="main" Id="main">
+
       		<section class="wrap-slider">
 		      	<div class="container">
 		      		<div class="row">
@@ -27,7 +27,16 @@
 
 							<?php endwhile; ?>
 
-							
+							<div class="paging-align">
+								<?php
+								// Previous/next page navigation.
+								the_posts_pagination( array(
+									'prev_text'          => __( 'Previous page', 'ozduhoc' ),
+									'next_text'          => __( 'Next page', 'ozduhoc' ),
+									'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'ozduhoc' ) . ' </span>',
+								) );
+								?>
+							</div>
 		          		</div>
 		          		<div class="col-md-4 event-width">
 		          			<?php

@@ -21,82 +21,86 @@
 									<div class="partner-box-title">
 										<strong>premium category</strong>
 									</div>
-                                    <ul class="ul-partner-list" id="myList0">
-                                    	<li>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    	</li>
-                                    	<li>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    	</li>
-                                    	<li>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    	</li>
-                                    	<li>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    	</li>
-                                    	<li>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    	</li>
-                                    	<li>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    		<div class="col-md-4">
-                                    			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                    		</div>
-                                    	</li>
-                                    </ul>
-                                    <div class="showlessMoreLocation">
-                                    	<div id="loadMore0" class="btn btn-default" onclick="Showmore('0');">Load more</div>
-										<div id="showLess0" class="btn btn-default" onclick="Showless('0');">Show less</div>
-									</div>
-                                </div>
+
+                                                      <div>
+                                                            <ul class="ul-partner-list" id="myList0">
+                                                            	<li class="row-height-partner">
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            	</li>
+                                                            	<li class="row-height-partner">
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            	</li>
+                                                            	<li class="row-height-partner">
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            	</li>
+                                                            	<li class="row-height-partner">
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            	</li>
+                                                            	<li class="row-height-partner">
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            	</li>
+                                                            	<li class="row-height-partner">
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            		<div class="col-md-4">
+                                                            			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            		</div>
+                                                            	</li>
+                                                            </ul>
+                                                      </div>
+                                                      <div class="showlessMoreLocation">
+                                                            <div id="loadMore0" class="button_more_less" onclick="Showmore('0');">Show more ...</div>
+                        						<div id="showLess0" class="button_more_less" onclick="Showless('0');">Show less</div>
+                        					</div>
+                                                      
+                                    </div>
                             </div>
 
-                        <!-- ===========================================================================
+                        <!-- =================================================================================
 									
 												NORMAL PARTNER
 
@@ -108,7 +112,7 @@
 										<strong>CATEGORY 1</strong>
 									</div>
                                     <ul class="ul-partner-list" id="myList1">
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -122,7 +126,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -136,7 +140,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -150,7 +154,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -164,7 +168,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -178,7 +182,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -194,9 +198,9 @@
                                     	</li>
                                     </ul>
                                     <div class="showlessMoreLocation">
-                                    	<div id="loadMore1" class="btn btn-default" onclick="Showmore('1');">Load more</div>
-										<div id="showLess1" class="btn btn-default" onclick="Showless('1');">Show less</div>
-									</div>
+                                    	<div id="loadMore1" class="button_more_less" onclick="Showmore('1');">Show more ...</div>
+							<div id="showLess1" class="button_more_less" onclick="Showless('1');">Show less</div>
+						</div>
                                 </div>
                             </div>
 
@@ -212,7 +216,7 @@
 										<strong>CATEGORY 2</strong>
 									</div>
                                     <ul class="ul-partner-list" id="myList2">
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -226,7 +230,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -240,7 +244,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -254,7 +258,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -268,7 +272,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -282,7 +286,7 @@
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
                                     	</li>
-                                    	<li>
+                                    	<li class="row-height-partner">
                                     		<div class="col-md-3">
                                     			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
                                     		</div>
@@ -298,9 +302,9 @@
                                     	</li>
                                     </ul>
                                     <div class="showlessMoreLocation">
-                                    	<div id="loadMore2" class="btn btn-default" onclick="Showmore('2');">Load more</div>
-										<div id="showLess2" class="btn btn-default" onclick="Showless('2');">Show less</div>
-									</div>
+                                    	<div id="loadMore2" class="button_more_less" onclick="Showmore('2');">Show more ...</div>
+							<div id="showLess2" class="button_more_less" onclick="Showless('2');">Show less</div>
+						</div>
                                 </div>
                             </div>
 		          		</div>

@@ -33,3 +33,14 @@
 .showlessMoreLocation{
     text-align: center;
 }
+
+.row-height-partner {
+    min-height: 200px;
+}
+
+.button_more_less{
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 5px 5px 5px 0px rgba(230,230,230,1);
+}
