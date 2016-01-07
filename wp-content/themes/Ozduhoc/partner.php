@@ -19,67 +19,139 @@
                                                       <li class="row-height-partner">
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                                            </div>
-                                                      </li>
-                                                      <li class="row-height-partner">
-                                                            <div class="col-md-4">
-                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                                            </div>
-                                                      </li>
-                                                      <li class="row-height-partner">
-                                                            <div class="col-md-4">
-                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                       </li>
                                                       <li class="row-height-partner">
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                       </li>
                                                       <li class="row-height-partner">
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                       </li>
                                                       <li class="row-height-partner">
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                   <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
+                                                            </div>
+                                                      </li>
+                                                      <li class="row-height-partner">
+                                                            <div class="col-md-4">
+                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
+                                                            </div>
+                                                      </li>
+                                                      <li class="row-height-partner">
+                                                            <div class="col-md-4">
+                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                  <a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                                  <div class="partner-detail">
+                                                                        <label>COMPANY NAME</label>
+                                                                        <label>Address</label>
+                                                                  </div>
                                                             </div>
                                                       </li>
                                                 </ul>
@@ -107,85 +179,181 @@
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          	</li>
-                                          	<li class="row-height-partner">
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          	</li>
-                                          	<li class="row-height-partner">
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          	</li>
+                                          	<li class="row-height-partner">
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          	</li>
+                                          	<li class="row-height-partner">
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           </ul>
@@ -211,85 +379,181 @@
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          	</li>
-                                          	<li class="row-height-partner">
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          	</li>
-                                          	<li class="row-height-partner">
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
-                                          		</div>
-                                          		<div class="col-md-3">
-                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           	<li class="row-height-partner">
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           		<div class="col-md-3">
                                           			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          	</li>
+                                          	<li class="row-height-partner">
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          	</li>
+                                          	<li class="row-height-partner">
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
+                                          		</div>
+                                          		<div class="col-md-3">
+                                          			<a href="#"><img src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/logo agilsun.png" /></a>
+                                                            <div class="partner-detail">
+                                                                  <label>COMPANY NAME</label>
+                                                                  <label>Address</label>
+                                                            </div>
                                           		</div>
                                           	</li>
                                           </ul>
