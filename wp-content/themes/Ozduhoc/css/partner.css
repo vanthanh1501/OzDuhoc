@@ -48,3 +48,8 @@
 .partner-cate:last-child {
     border-bottom: none;
 }
+
+
+.partner-container {
+    margin-bottom: 20px;
+}

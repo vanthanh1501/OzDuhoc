@@ -2,9 +2,10 @@
 
 
       		<section class="wrap-slider">
-		      	<div class="container">
-		      		<div class="row">
-		          		<div class="col-md-8 recent-width box-cate">
+		      	<div class="container container-fix-padding">
+		      		<div class="row row-fix-margin">
+		          		<div class="col-md-8 col-fix-padding partner-container">
+		          			<div class="box-cate">
 		          			<?php while ( have_posts() ) : the_post(); ?>
 		          				<div class="clearfix">
 				                    <header class="entry-header  post-content-title">
@@ -36,9 +37,10 @@
 									'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'ozduhoc' ) . ' </span>',
 								) );
 								?>
+								</div>
 							</div>
 		          		</div>
-		          		<div class="col-md-4 event-width">
+		          		<div class="col-md-4 col-fix-padding">
 		          			<?php
 						        if( is_active_sidebar( 'colormag_right_sidebar' ) ) {
 						           if ( !dynamic_sidebar( 'colormag_right_sidebar' ) ):
