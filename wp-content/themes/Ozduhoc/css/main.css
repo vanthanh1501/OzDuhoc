@@ -386,6 +386,7 @@ header .wrap-logo {
 }
 header .wrap-logo img {
 	/*height: 105px;*/
+	max-width: 100%;
 }
 header .wrap-menu {
 	float: right;

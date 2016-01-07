@@ -38,6 +38,7 @@
     /*background-color: green;  */
     height: 45px;
     border-bottom: 1px dashed #e7e7e7;
+    margin-bottom: 10px;
 }
 
 .tribe-events-list-widget ol li{

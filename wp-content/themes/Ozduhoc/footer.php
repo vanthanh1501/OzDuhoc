@@ -73,6 +73,38 @@
 				<div class="copyright">Developed by Agilsun</div>
 			</div>
 		</footer>
+
+		<script src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/js/owl.carousel.min.js"></script>
+	    <script src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/js/vendor/bootstrap.min.js"></script>
+	    <script src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/js/vendor/bootstrap-datepicker.js"></script>    
+	    <script src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/js/vendor/hoverIntent.js"></script>
+	    <script src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/js/vendor/superfish.js"></script>
+	    <script src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/js/main.js"></script>
+	    <!-- initialise Superfish -->
+	    <script>
+	    jQuery(document).ready(function() {
+	      jQuery('ul.sf-menu').superfish();
+	    });
+	    </script>
+
+    	<!-- Facebook like box -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=460242270813547";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+
+		$(document).ready(function () {
+		          $(".navbar-nav li a").click(function(event) {
+		              $(".navbar-collapse").collapse('hide');
+		          });
+		      });
+		</script>
+		<!-- End Facebook like box -->
 		<a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
 	</div><!-- #page -->
 	<?php wp_footer(); ?>

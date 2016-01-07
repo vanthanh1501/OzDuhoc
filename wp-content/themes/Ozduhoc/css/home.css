@@ -8,7 +8,7 @@
 }
 /* Slider */
 .wrap-slider {
-	padding: 40px 0px;
+	padding: 40px 0px 65px;
 	background: url("../img/bg-contact.jpg") no-repeat;
 	background-size: cover;
 }
@@ -234,6 +234,10 @@
 	.wrap-sails-tour {
 		text-align: center;
 	}
+
+	.img-in-Box img {
+	    max-height: none !important;
+	}
 }
 
 /*  #Mobile (Portrait) 320px
@@ -242,6 +246,10 @@
 @media only screen and (min-width: 100px) and (max-width: 479px) {
 	.wrap-sails-tour {
 		text-align: center;
+	}
+
+	.img-in-Box img {
+	    max-height: none !important;
 	}
 }
 
