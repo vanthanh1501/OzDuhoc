@@ -106,7 +106,7 @@
       <section>
         <div class="slider-bar">
             <?php //echo do_shortcode('[metaslider id=1284 percentwidth=100]'); ?>
-            <img style="width:100%;" src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/slider.jpg" />
+            <img class="img-slider-mar" style="width:100%;" src="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/img/slider.jpg" />
         </div>
       </section>
     </header>

@@ -217,14 +217,20 @@
 /* -------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
-
+	.es_textbox_button{
+		margin-right: 40px !important;
+    	margin-top: 5px !important;
+	}
 }
 /* #Tablet (Portrait) 768px */
 
 /* -------------------------------------------------------------------------- */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-
+	.es_textbox_button{
+		margin-right: 40px !important;
+    	margin-top: 5px !important;
+	}
 }
 
 /* #Mobile (Landscape) 480px */
@@ -238,6 +244,11 @@
 	.img-in-Box img {
 	    max-height: none !important;
 	}
+
+	.es_textbox_button{
+		margin-right: 40px !important;
+    	margin-top: 5px !important;
+	}
 }
 
 /*  #Mobile (Portrait) 320px
@@ -250,6 +261,11 @@
 
 	.img-in-Box img {
 	    max-height: none !important;
+	}
+
+	.es_textbox_button{
+		margin-right: 40px !important;
+    	margin-top: 5px !important;
 	}
 }
 
@@ -366,4 +382,9 @@
     background: 0;
     border: 0;
     display: inline-block;
+}
+
+
+.img-slider-mar {
+	margin-bottom: 0;
 }

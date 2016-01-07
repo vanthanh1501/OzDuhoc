@@ -4,18 +4,16 @@
 */
     ?>
 <?php get_header(); ?>
-
-<div class="main" Id="main">
       		<section class="wrap-slider">
-		      	<div class="container">
-		      		<div class="row">
-		          		<div class="col-md-8 recent-width box-cate">
+		      	<div class="container container-fix-padding">
+		      		<div class="row row-fix-margin">
+		          		<div class="col-md-8 col-fix-padding box-cate">
 		          			
-		          		<!-- ===========================================================================
+		          		<!-- ==========================
 									
 												PREMIUM PARTNER
 
-		          		================================================================================-->
+		          		===========================-->
 		          			<div class="col-md-12 partner-cate">
 								<div class="entry-content clearfix">
 									<div class="partner-box-title">
@@ -100,11 +98,11 @@
                                     </div>
                             </div>
 
-                        <!-- =================================================================================
+                        <!-- ==========================
 									
-												NORMAL PARTNER
+						NORMAL PARTNER
 
-		          		================================================================================-->
+		          		=======================-->
 		          			
                             <div class="col-md-12  partner-cate">
 								<div class="entry-content clearfix">
@@ -204,11 +202,11 @@
                                 </div>
                             </div>
 
-                            <!-- ===========================================================================
+                            <!-- =====================
 									
 												NORMAL PARTNER
 
-		          		================================================================================-->
+		          		======================-->
 		          			
                             <div class="col-md-12  partner-cate">
 								<div class="entry-content clearfix">
